@@ -1,0 +1,63 @@
+h1 {
+ margin-left: 70px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 45px;
+ z-index: 1;
+ padding: 10px;
+}
+
+.masterbox {
+  position: static;
+  width: 70%;
+  height: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  background: transparent;
+  font-size: large;
+  line-height: 1.5;
+}
+
+
+.boxf {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 110px;
+  padding-top: 30px;
+  background: #eee;
+  text-align: center;
+  font-size: 25px;
+  z-index: 2;
+}
+
+.boxr {
+  width: 100%;
+  height: 160px;
+  background: #eee;
+  position: relative;
+  padding-top: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: center;
+  word-wrap: normal;
+  font-size: 25px;
+  align-self: center;
+  z-index: 1;
+}
+
+
+
+.boxa {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  margin-top: -15px;
+  padding-top: 20px;
+  background: #999;
+  margin-left: 60%;
+  text-align: center;
+  font-size: 25px;
+  z-index: 3;
+}
+
